@@ -45,4 +45,7 @@ public class StudentController {
         return iStudentService.getAllStudents();
     }
 
+    public IStudentService getiStudentService() {
+        return iStudentService;
+    }
 }
